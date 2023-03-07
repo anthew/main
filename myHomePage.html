@@ -8,7 +8,7 @@
     <link rel="stylesheet" type="text/css" href="myHomePageStyle.css">
 </head>
 <body>
-    <h1>Anthony's Home Page</h1>
+    <h1 id = "home">Anthony's Home Page</h1>
 
     <hr style="border-top: double" solid> <!--this is in-line CSS-->
     
@@ -29,8 +29,8 @@
                     </li>
                     <li>Contact Information
                         <ul>
-                            <li>Email: <a href="anthonymhewitt@gmail.com">anthonymhewitt@gmail.com</a></li>
-                            <li>Phone: <a href="call:9497935403">949-793-5403</a></li>
+                            <li>Email: <a href="mailto:anthonymhewitt@gmail.com">anthonymhewitt@gmail.com</a></li>
+                            <li>Phone: <a href="tel:9497935403">949-793-5403</a></li>
                         </ul>
                     </li>
                 </ul>
@@ -38,35 +38,38 @@
         </tr>
     </table>
 
-    <h2>Brief Biography</h2>
+    <h2 id = "bio">Brief Biography</h2>
     <p>I am pursuing a </p>
 
-    <h2>Education</h2>
+    <h2 id = "edu">Education</h2>
     <ul>
-        <li>2016-2020: High School Degree | Tesoro High School</li>
+        <li>2016-2020: High School Diploma | Tesoro High School</li>
         <li>2020-2024:</li>
     </ul>
 
-    <h2>Work Experience</h2>
+    <h2 id = "work">Work Experience</h2>
     <ul>
         <li>Company | Address1 | Job Position 1</li>
         <li>Company | Address1 | Job Position 1</li>
         <li>Company | Address1 | Job Position 1</li>
     </ul>
 
-    <h2>Skills/Language</h2>
+    <h2 id = "skills">Skills</h2>
     <ul>
-        <li>English/li>
-        <li>C++</li>
-        <li>Java</li>
+        <li>Java, C++, JavaScript, HTML, CSS, SQL</li>
+        <li>GUI Creation via JavaFX</li>
+        <li>UML Diagramming</li>
+        <li>Requirements Documentation</li>
+        <li>Software Design Patterns</li>
+        <li>Unix Programming</li>
     </ul>
 
     <div class = "sidebar">
-        <a href="">Home</a><br>
-        <a href="">Brief Biography</a><br>
-        <a href="">Education</a><br>
-        <a href="">Work Experience</a><br>
-        <a href="">Skills/Language</a><br>
+        <a href="#home">Home</a><br>
+        <a href="#bio">Brief Biography</a><br>
+        <a href="#edu">Education</a><br>
+        <a href="#work">Work Experience</a><br>
+        <a href="#skills">Skills</a><br>
     </div>
 </body>
 </html>
