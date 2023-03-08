@@ -1,9 +1,6 @@
 h1{ /*element selector*/
-    color: blue;
-}
-
-hr{
-    border-top: 5px solid
+    color: brown;
+    border-bottom: 1px solid;
 }
 
 #pic {
@@ -16,11 +13,16 @@ hr{
 
 a { /*element selector*/
     text-decoration: none;
-    color: blue;
+    color: brown;
+}
+
+a>href { /*element selector*/
+    text-decoration: none;
+    color: brown;
 }
 
 a:hover{
-    color: brown;
+    color: darkorange;
 }
 
 /*set page background color*/
@@ -32,9 +34,14 @@ body{
 }
 
 h2{
-    color: darkorange;
+    color: brown;
     border-bottom: 1px solid;
     margin-top: 1.2em
+}
+
+.extLink
+{
+    color: blue;
 }
 
 .sidebar{
@@ -44,9 +51,14 @@ h2{
 
     width: 140px;
     height: 100%;
-    background-color: dodgerblue;
+    background-color: rgb(205, 185, 159);
     padding-top: 20px;
     padding-left: 15px;
     line-height: 1.85em;
     font-size: 1.1em;
+}
+
+.theProjs
+{
+    border: 3px solid antiquewhite;
 }
